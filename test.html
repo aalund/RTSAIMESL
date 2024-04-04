@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page with Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+        }
+        .index {
+            flex: 1;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .content {
+            flex: 3;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="index">
+            <h2>Index</h2>
+            <ul>
+                <li><a href="#chapter1">Chapter 1</a></li>
+                <li><a href="#chapter2">Chapter 2</a></li>
+                <li><a href="#chapter3">Chapter 3</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 id="chapter1">Chapter 1</h2>
+            <p>This is the content of Chapter 1.</p>
+            <h2 id="chapter2">Chapter 2</h2>
+            <p>This is the content of Chapter 2.</p>
+            <h2 id="chapter3">Chapter 3</h2>
+            <p>This is the content of Chapter 3.</p>
+        </div>
+    </div>
+</body>
+</html>
